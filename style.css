@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+    background-color: #333D29;
+    color:#c2c5aa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    font-size: 70px;
+}
+h2 {
+    font-size:50px;
+}
+h3 {
+    font-size:40px;
+}
+button {
+    font-size:200px;
+    margin-right:100px;
+}
+#scoreBoard{
+    display : flex;
+    justify-content: center;
+    gap : 100px;
+}
+.board {
+    font-size: 150px;
+}
+p {
+    font-size: 40px;
+}
