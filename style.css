@@ -17,6 +17,7 @@ h3 {
     display:flex;
     justify-content: center;
     gap : 10px;
+    flex:1;
 }
 button {
     font-size:75px;
@@ -29,10 +30,11 @@ button:hover{
     display : flex;
     justify-content: center;
     gap : 30px;
+    flex:1;
 }
 .board {
     font-size: 50px;
-    margin-top : 20px;
+    margin-top : 20gipx;
 }
 p {
     font-size: 40px;
