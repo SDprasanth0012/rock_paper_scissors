@@ -1,0 +1,41 @@
+* {
+    
+    text-align: center;
+    font-family: caveman;
+    background-color: #462f3a;
+    color:#F4F3ee;
+}
+header {
+    font-size: 50px;
+}
+h2 {
+    font-size : 30px;
+}
+h3 {
+    font-size : 20px;
+}
+button {
+    height: 100px;
+    width: 80px;
+    margin : 20px;
+    font-size : 60px;
+    border: 1px solid #F4F3ee;
+    border-radius:3px;
+}
+button:hover {
+    background-color:#f4f3ee;
+    color:#462f3a;
+}
+.score-container {
+    display  : flex;
+    justify-content  :  center;
+    gap : 300px;
+    margin-top: 100px ;
+    flex-wrap: wrap;
+}
+.ps {
+    font-size: 100px;
+} 
+.para{
+    font-size: 30px;
+}
