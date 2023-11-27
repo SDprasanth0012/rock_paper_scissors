@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK PAPER SCISSORS</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,19 +16,24 @@
         <h3>First to score 5 will Win </h3>
     </main>
     <div class="btn">
-        <button id="rock">✊</button>
-        <button id="paper">✋</button>
-        <button id="scissor">✌</button>
+        <button class="rock">✊</button>
+        <button class="paper">✋</button>
+        <button class="scissor">✌</button>
     </div>
     <div id = scoreBoard>
         <div id="playerBoard">
-            <div class="board">?</div>
-            <p class="score">player score = 0</p>
+            <div class="board" id="playerSymbol">?</div>
+            <p class="pscore">player score = 0</p>
         </div>
         <div id="computerBoard">
-            <div class="board">?</div>
-            <p class="score">computer score = 0</p>
+            <div class="board" id="computerSymbol">?</div>
+            <p class="cscore">computer score = 0</p>
         </div>
     </div>    
+    <footer>
+        
+        copywrite © saiprasanth0012
+         
+    </footer>
 </body>
 </html>
